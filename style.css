@@ -1,0 +1,111 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../../image/background.jpg');
+    background-size: cover;
+}
+
+.border-1
+{
+    display: inline;
+    border-left: 2px white dashed;
+    padding: 8px 0px;
+}
+
+/* CSS CỦA LOGO VÀ NAVBAR */
+.nav
+{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: #191A15;
+    color: white;
+    font-family: 'customFont-3';
+}
+
+.nav > .nav-logo
+{
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.nav > .nav-logo img
+{
+    height: 95%;
+}
+
+/* CSS CỦA CÁC TRANG ĐIỀU HƯỚNG */
+.nav > .nav-page
+{
+    position: relative;
+    display: inline-block;
+    float: left;
+    height: 60px;
+    margin-left: 5%;
+}
+
+.nav > .nav-page > a
+{
+    line-height: 55px;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: .3s;
+}
+
+.nav > .nav-page > a:hover
+{
+    color: yellow;
+    transition: .3s;
+}
+
+.nav > .nav-page > .actived
+{
+    color: yellow;
+}
+
+/* CSS CỦA BIỂU TƯỢNG ĐIỀU HƯỚNG (FACEBOOK, YOUTUBE..) */
+.nav > .nav-icon
+{
+    display: inline-block;
+    float: right;
+    padding-right: 80px;
+}
+
+.nav > .nav-icon i
+{
+    color: white;
+    font-size: 30px;
+}
+
+.nav > .nav-icon > a
+{   
+    padding: 7px;
+    line-height: 65px;
+}
+
+.nav > .nav-icon i:hover
+{
+    color: yellow;
+}
+
+/* CSS PHẦN NỘI DUNG WEBSITE */
+.container
+{
+    position: relative;
+    display: block;
+    min-height: 1080px;
+}
+
+.footer
+{
+    background: black;
+    height: 80px;
+}

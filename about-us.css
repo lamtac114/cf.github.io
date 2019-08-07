@@ -1,0 +1,25 @@
+.content
+{
+    max-width: 1080px;
+    margin: auto;
+    text-align: center;
+}
+.title
+{
+    font-family: 'CustomFont-1';
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.image-title
+{
+    width: 700px;
+}
+
+.content > p
+{
+    text-align: left;
+    font-size: 21px;
+    font-family: 'CustomFont-3';
+}
