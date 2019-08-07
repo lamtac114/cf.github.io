@@ -1,0 +1,19 @@
+.content
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.title
+{
+    font-family: 'CustomFont-3';
+    font-size: 50px;
+    font-weight: bold;
+    padding: 80px;
+}
+
+.image-title
+{
+    width: 700px;
+}

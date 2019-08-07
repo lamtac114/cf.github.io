@@ -1,0 +1,31 @@
+.content
+{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.title
+{
+    font-family: 'CustomFont-1';
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.image-title
+{
+    width: 700px;
+}
+
+.content > p
+{
+    text-align: left;
+    font-size: 23px;
+    font-family: 'CustomFont-3';
+}
+
+.cf-viet-img
+{
+    float: left;
+    shape-outside: polygon(0 0, 78% 0, 76% 29%, 85% 37%, 77% 62%, 90% 62%, 100% 71%, 99% 91%, 95% 97%, 14% 100%, 1% 85%, 0 66%);
+}

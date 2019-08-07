@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: customFont-1;
+    src: url(../font/UTM_Copperplate.ttf);
+}
+@font-face
+{
+    font-family: customFont-2;
+    src: url(../font/UTM_CopperplateB.ttf);
+}
+@font-face
+{
+    font-family: customFont-3;
+    src: url(../font/UTM_DaxMedium.ttf);
+}
